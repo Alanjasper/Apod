@@ -166,3 +166,175 @@ body {
   border: 1px solid black;
   text-align: left;
 }
+@media only screen and (max-width: 768px) {
+    body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 144px; /* 100px * 1,444 */
+  background-color: rgb(159, 120, 190);
+}
+
+.range, .seek {
+  width: 462px; /* 320 * 1,444 */
+  height: 9px;  /* 6 * 1,444 */
+  border-radius: 4px; /* 3 * 1,444 */
+  background: #ccc;
+  outline: none;
+  cursor: pointer;
+}
+
+.range::-webkit-slider-thumb,
+.range::-moz-range-thumb,
+.range::-ms-thumb,
+.seek::-webkit-slider-thumb,
+.seek::-moz-range-thumb,
+.seek::-ms-thumb {
+  width: 20px;  /* 14 * 1,444 */
+  height: 20px; /* 14 * 1,444 */
+  background: grey;
+  border: 1px solid #aaa;
+  border-radius: 50%;
+}
+
+.range::-moz-range-progress,
+.seek::-moz-range-progress {
+  background-color: #666;
+  height: 9px; /* 6 * 1,444 */
+  border-radius: 4px; /* 3 * 1,444 */
+}
+
+.range::-moz-range-track,
+.seek::-moz-range-track {
+  background-color: #ccc;
+  height: 9px; /* 6 * 1,444 */
+  border-radius: 4px; /* 3 * 1,444 */
+}
+
+.iphone {
+  border: 3px solid black; /* 2 * 1,444 ≈ 3 */
+  width: 650px;  /* 450 * 1,444 */
+  height: 800px; /* giữ nguyên */
+  border-radius: 72px; /* 50 * 1,444 */
+  background-color: rgb(26, 26, 26);
+  display: grid;
+  place-items: center;
+}
+
+.manhinh {
+  margin-top: 43px; /* 30 * 1,444 */
+  background-color: rgb(80, 19, 131);
+  width: 90%;
+  height: 794px; /* 550 * 1,444 */
+  border: 1px solid black;
+  text-align: center;
+}
+
+.loatrc {
+  margin-top: 29px; /* 20 * 1,444 */
+  width: 36%; /* 25% * 1,444 -> để rộng hơn */
+  height: 29px; /* 20 * 1,444 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px; /* 5 * 1,444 */
+}
+
+.loa {
+  background-color: rgb(0, 0, 0);
+  width: 70%;
+  height: 14px; /* 10 * 1,444 */
+  border-radius: 14px; /* 10 * 1,444 */
+}
+
+.cam {
+  width: 25px;  /* 17 * 1,444 */
+  height: 25px; /* 17 * 1,444 */
+  background-color: black;
+  border-radius: 100%;
+}
+
+.nuthome {
+  background-color: black;
+  height: 115px; /* 80 * 1,444 */
+  width: 115px;  /* 80 * 1,444 */
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lmmau {
+  background-color: rgb(0, 0, 0);
+  height: 58px; /* 40 * 1,444 */
+  width: 58px;  /* 40 * 1,444 */
+  border: 4px solid white; /* 3 * 1,444 ≈ 4 */
+}
+
+.anh {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+}
+
+.nhap {
+  margin-top: 29px; /* 20 * 1,444 */
+  background-color: rgb(80, 19, 131);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tieudephone {
+  font-size: 43px; /* 30 * 1,444 */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bt {
+  color: black;
+  font-size: 29px; /* 20 * 1,444 */
+  height: 58px; /* 40 * 1,444 */
+  width: 58px;  /* 40 * 1,444 */
+  margin-bottom: 14px; /* 10 * 1,444 */
+  border-radius: 100%;
+  background-color: grey;
+  border: none;
+}
+
+.buttonp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px; /* 15 * 1,444 */
+}
+
+.bt:nth-child(2) {
+  width: 87px;  /* 60 * 1,444 */
+  height: 87px; /* 60 * 1,444 */
+}
+
+.baihat {
+  margin-left: 29px; /* 20 * 1,444 */
+  font-size: 33px;  /* 23 * 1,444 */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.album {
+  text-align: center;
+  font-size: 58px; /* 40 * 1,444 */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.manhinh2 {
+  margin-top: 43px; /* 30 * 1,444 */
+  background-color: rgb(80, 19, 131);
+  width: 90%;
+  height: 794px; /* 550 * 1,444 */
+  border: 1px solid black;
+  text-align: left;
+}
+
+}
