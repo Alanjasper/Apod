@@ -67,7 +67,7 @@ function thumbnail() {
   else if (src.includes("baihat2.mp3")) {
     tieude.textContent = "Khuôn mặt đáng thương";
     baihats[1].style.color = "green";
-    anh.src = "";
+    anh.src = "https://i.scdn.co/image/ab6761610000e5eb5a79a6ca8c60e4ec1440be53";
   } 
   else if (src.includes("baihat3.mp3")) {
     tieude.textContent = "Thu cuối";
