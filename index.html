@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Máy nghe nhạc</title>
+        <title>Apod🎧</title>
+        <link rel="icon" type="img/png" href="https://png.pngtree.com/png-clipart/20230912/original/pngtree-headphones-clipart-vector-png-image_11052278.png">
         <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
     </head>
     <body>
-    <div class="iphone">
-      <div class="loatrc">
-        <div class="cam"></div>
-        <div class="loa"></div>
-      </div>
       <div class="manhinh">
         <div class="top">
-          <button class="nhap"><img id="anh" class="anh" src="https://image-cdn.nct.vn/singer/avatar/2024/10/11/3/v/D/5/1728643944137_600.jpg"></button>
+         <img id="anh" class="anh" src="https://image-cdn.nct.vn/singer/avatar/2024/10/11/3/v/D/5/1728643944137_600.jpg">
           <h1 id="tieudephone" class="tieudephone">Đừng làm trái tim anh đau</h1>
         </div>
         <div class="buttonp">
@@ -23,29 +19,32 @@
         </div>
         <input id="seek" type="range" class="seek" value="0" min="0" max="100">
       </div>
-      <div class="nuthome">
-        <div class="lmmau"></div>
-      </div>
-    </div>
-
-    <div class="iphone">
-      <div class="loatrc">
-        <div class="cam"></div>
-        <div class="loa"></div>
-      </div>
+      <div class="mh">
+        <img class="anh2"src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2019/7/4/742360/Son-Tung-Mtp4.jpg" alt="">
       <div class="manhinh2">
-        <h1 class="album">Album</h1>
-        <h3 class="baihat">Đừng làm trái tim anh đau</h3>
-        <h3 class="baihat">Khuôn mặt đáng thương</h3>
-        <h3 class="baihat">Thu cuối</h3>
-        <h3 class="baihat">Đánh đổi</h3>
-        <h3 class="baihat">Túy âm</h3>
-      </div>
-      <div class="nuthome">
-        <div class="lmmau"></div>
+        <h1 class="album">Cũ nhưng mới</h1>
+        <button onclick="trieuhoid()"class="nhap">
+          <img class="imgab"src="https://image-cdn.nct.vn/singer/avatar/2024/10/11/3/v/D/5/1728643944137_600.jpg" alt="">
+          <h3 class="baihat">Đừng làm trái tim anh đau</h3>
+        </button>
+        <button onclick="trieuhoik()"class="nhap">
+          <img class="imgab"src="https://i.scdn.co/image/ab6761610000e5eb5a79a6ca8c60e4ec1440be53" alt="">
+          <h3 class="baihat">Khuôn mặt đáng thương</h3>
+        </button>
+        <button onclick="trieuhoit()"class="nhap">
+          <img class="imgab"src="https://i1.sndcdn.com/artworks-2o3Z4WVKPVN9yWjr-9dVXVw-t500x500.jpg" alt="">
+          <h3 class="baihat">Thu cuối</h3>
+        </button>
+        <button onclick="trieuhoidd()"class="nhap">
+          <img class="imgab"src="https://i.scdn.co/image/ab67616d0000b273a06a6b51d0dc296d48505ee6" alt="">
+          <h3 class="baihat">Đánh đổi</h3>
+        </button>
+        <button onclick="trieuhoita()"class="nhap">
+          <img class="imgab"src="https://i1.sndcdn.com/artworks-000242595641-s604sm-t500x500.jpg" alt="">
+          <h3 class="baihat">Túy âm</h3>
+        </button>
       </div>
     </div>
-
     <script src="code.js"></script>
     </body>
 </html>

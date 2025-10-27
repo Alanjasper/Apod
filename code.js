@@ -61,27 +61,27 @@ function thumbnail() {
 
   if (src.includes("baihat1.mp3")) {
     tieude.textContent = "Đừng làm trái tim anh đau";
-    baihats[0].style.color = "green";
+    baihats[0].style.color = "white";
     anh.src = "https://image-cdn.nct.vn/singer/avatar/2024/10/11/3/v/D/5/1728643944137_600.jpg";
   } 
   else if (src.includes("baihat2.mp3")) {
     tieude.textContent = "Khuôn mặt đáng thương";
-    baihats[1].style.color = "green";
+    baihats[1].style.color = "white";
     anh.src = "https://i.scdn.co/image/ab6761610000e5eb5a79a6ca8c60e4ec1440be53";
   } 
   else if (src.includes("baihat3.mp3")) {
     tieude.textContent = "Thu cuối";
-    baihats[2].style.color = "green";
+    baihats[2].style.color = "white";
     anh.src = "https://i1.sndcdn.com/artworks-2o3Z4WVKPVN9yWjr-9dVXVw-t500x500.jpg";
   } 
   else if (src.includes("baihat4.mp3")) {
     tieude.textContent = "Đánh đổi";
-    baihats[3].style.color = "green";
+    baihats[3].style.color = "white";
     anh.src = "https://i.scdn.co/image/ab67616d0000b273a06a6b51d0dc296d48505ee6";
   } 
   else {
     tieude.textContent = "Túy âm";
-    baihats[4].style.color = "green";
+    baihats[4].style.color = "white";
     anh.src = "https://i1.sndcdn.com/artworks-000242595641-s604sm-t500x500.jpg";
   }
 }
@@ -95,6 +95,31 @@ function vesau() {
 function vetrc() {
   a--;
   if (a < 0) a = playlist.length - 1;
+  if (nhac) nhac.pause();
+  taoNhac(playlist[a]);
+}
+function trieuhoid() {
+  a = 0;
+  if (nhac) nhac.pause();
+  taoNhac(playlist[a]);
+}
+function trieuhoik() {
+  a = 1;
+  if (nhac) nhac.pause();
+  taoNhac(playlist[a]);
+}
+function trieuhoit() {
+  a = 2;
+  if (nhac) nhac.pause();
+  taoNhac(playlist[a]);
+}
+function trieuhoidd() {
+  a = 3;
+  if (nhac) nhac.pause();
+  taoNhac(playlist[a]);
+}
+function trieuhoita() {
+  a = 4;
   if (nhac) nhac.pause();
   taoNhac(playlist[a]);
 }
